@@ -5,11 +5,11 @@ Unity（WebGL）とAx（Adaptive Experimentation Platform）を連携させる�
 
 * ブログ
 * 動作環境
-* インストール
+* Unity WebGLビルド
+* Pythonライブラリ
 * 実行手順
-* ブログ
 
-#### ブログ
+### ブログ
 
 本リポジトリの内容はブログと連動しています。  
 詳細はこちらをご参照ください。  
