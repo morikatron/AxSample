@@ -75,4 +75,4 @@ Ax他
 
 本リポジトリの内容はブログと連動しています。  
 詳細はこちらをご参照ください。  
-https://tech.morikatron.ai/
+https://tech.morikatron.ai/entry/2020/05/06/100000
