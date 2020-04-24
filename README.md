@@ -1,7 +1,7 @@
 
-# Unity～Ax(Adaptive Experimentation Platform)連携サンプルプログラム
+# Unity～Ax連携サンプルプログラム
 
-Unity（WebGL）とAx(Adaptive Experimentation Platform)を連携させるサンプルプログラムです。
+Unity（WebGL）とAx（Adaptive Experimentation Platform）を連携させるサンプルプログラムです。
 
 * ブログ
 * 動作環境
