@@ -1,12 +1,19 @@
 
-# Unity～Ax連携サンプルプログラム
+# Unity～Ax(Adaptive Experimentation Platform)連携サンプルプログラム
 
-Unity（WebGL）とAxを連携させるサンプルプログラムです。
+Unity（WebGL）とAx(Adaptive Experimentation Platform)を連携させるサンプルプログラムです。
 
+* ブログ
 * 動作環境
 * インストール
 * 実行手順
 * ブログ
+
+#### ブログ
+
+本リポジトリの内容はブログと連動しています。  
+詳細はこちらをご参照ください。  
+https://tech.morikatron.ai/entry/2020/05/06/100000
 
 ### 動作環境
 
@@ -70,9 +77,3 @@ Ax他
     * URLにアクセスするとすぐ最適化処理がスタートします。
     * Unityの画面には何も表示されません。
     * 適宜ブラウザおよびサーバーのコンソールでログを確認してください。
-
-#### ブログ
-
-本リポジトリの内容はブログと連動しています。  
-詳細はこちらをご参照ください。  
-https://tech.morikatron.ai/entry/2020/05/06/100000
