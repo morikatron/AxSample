@@ -3,3 +3,4 @@ ax-platform
 Flask
 gevent
 gevent-websocket
+deap

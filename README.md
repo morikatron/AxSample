@@ -8,12 +8,18 @@ Unity（WebGL）とAx（Adaptive Experimentation Platform）を連携させる�
 * Unity WebGLビルド
 * Pythonライブラリ
 * 実行手順
+* 遺伝的アルゴリズム【追記】
 
 ### ブログ
 
 本リポジトリの内容はブログと連動しています。  
 詳細はこちらをご参照ください。  
 https://tech.morikatron.ai/entry/2020/05/06/100000
+
+【追記】  
+遺伝的アルゴリムのサンプルコードを追加しました。  
+詳しくは下記ブログ記事を参照してください。  
+https://tech.morikatron.ai/entry/2020/06/99/100000
 
 ### 動作環境
 
@@ -30,6 +36,7 @@ https://tech.morikatron.ai/entry/2020/05/06/100000
 * Flask 1.1.2
 * gevent 20.4.0
 * gevent-websocket 0.10.1
+* deap 1.3.1【追記】
 
 ### Unity WebGLビルド
 
@@ -64,6 +71,9 @@ Ax他
 または  
 `cd AxSample; pip install -r requirements.txt`
 
+DEAP【追記】
+`pip install deap`
+
 ### 実行手順
 
 1. 仮想環境を起動  
@@ -77,3 +87,15 @@ Ax他
     * URLにアクセスするとすぐ最適化処理がスタートします。
     * Unityの画面には何も表示されません。
     * 適宜ブラウザおよびサーバーのコンソールでログを確認してください。
+
+### 遺伝的アルゴリズム【追記】
+
+適宜app.pyにてOptimizerを切り替えてください。
+
+【app.py 抜粋】
+```python
+from booth_loop import Optimizer  # ベイズ最適化
+# from booth_ga_short import Optimizer  # シンプルGA（簡易版）
+# from booth_ga import Optimizer  # シンプルGA（フルスペック版）
+# from booth_ga_float import Optimizer  # 実数値GA
+```
