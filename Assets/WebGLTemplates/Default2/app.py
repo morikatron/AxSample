@@ -5,7 +5,10 @@ from geventwebsocket.handler import WebSocketHandler
 
 from flask import Flask, request, render_template, Blueprint
 
-from booth_loop import Optimizer
+from booth_loop import Optimizer  # ベイズ最適化
+# from booth_ga_short import Optimizer  # シンプルGA（簡易版）
+# from booth_ga import Optimizer  # シンプルGA（フルスペック版）
+# from booth_ga_float import Optimizer  # 実数値GA
 
 # Unity WebGLのテンプレートのフォルダ構成に合わせるため
 # Blueprintを利用してstatic_folderを追加する
