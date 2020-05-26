@@ -17,9 +17,9 @@ Unity（WebGL）とAx（Adaptive Experimentation Platform）を連携させる�
 https://tech.morikatron.ai/entry/2020/05/06/100000
 
 【追記】  
-遺伝的アルゴリムのサンプルコードを追加しました。  
+遺伝的アルゴリズムのサンプルコードを追加しました。  
 詳しくは下記ブログ記事を参照してください。  
-https://tech.morikatron.ai/entry/2020/06/99/100000
+https://tech.morikatron.ai/entry/2020/06/08/100000
 
 ### 動作環境
 
